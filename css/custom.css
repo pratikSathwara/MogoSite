@@ -1,0 +1,1669 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*  --------------------- Header CSS Start ------------------------ */
+
+.header {
+	background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.7), rgba(252, 227, 138, 0.7)), url(../img/banner.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.header_top {
+	padding: 40px 0;
+	position: relative;
+}
+
+
+/* ------------- Navbar Start ------------------ */
+
+.navbar-brand {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.header_top .navbar-nav>li {
+	min-height: 60px;
+}
+
+.header_top .navbar-nav>li>a {
+	color: rgba(255, 255, 255, 0.75);
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-bottom: 4px solid transparent;
+	margin: 15px 15px 0px 15px;
+	padding: 0px;
+}
+
+.header_top .navbar-nav>li>a:hover {
+	color: #fce38a;
+	border-bottom: 4px solid #fce38a;
+	padding-bottom: 15px;
+	transition: all 0.5s ease-in;
+	background: transparent;
+}
+
+.navbar-collapse.in {
+	overflow-y: auto;
+	position: absolute;
+	width: 100%;
+}
+
+.navbar-collapse {
+	box-shadow: none;
+}
+
+.collapsing {
+	position: absolute;
+	width: 100%;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+#navbar-close {
+	color: #fff;
+	width: 22px;
+	height: 14px;
+}
+
+.navbar-toggle {
+	background-color: #f38181;
+}
+
+.navbar-toggle .icon-bar {
+	background: #fff;
+}
+
+.sticky {
+    position: fixed;
+    right: 0;
+    width: 1170px;
+    left: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    transition: .2s ease;
+        background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(243, 129, 129, 0.9));
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* ------------- Navbar End ------------------ */
+
+.header_main {
+	display: table;
+	min-height: 800px;
+	width: 100%;
+}
+
+.header_main_text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+}
+
+.header_main_text h2 {
+	font-size: 150px;
+	margin-top: 40px;
+}
+
+.header_main_text h3 {
+	font-size: 72px;
+	font-weight: 400;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+}
+
+.header_main_text hr {
+	width: 62px;
+	border: 2px solid #fff;
+	margin-top: 70px;
+}
+
+.header_main_text .header_btn {
+	border: 2px solid #fff;
+	background: transparent;
+	padding: 12px 30px;
+	font-weight: 600;
+	margin-top: 45px;
+	color: #f38181;
+	transition: all 0.5s ease-in;
+}
+
+.header_main_text .header_btn:hover {
+	color: #f38181;
+	background: #fff;
+}
+.header_main_text .carousel-control.left {
+    background: transparent;
+}
+.header_main_text .carousel-control {
+    width: 0;
+
+}
+.header_main_text .carousel-indicators{
+	bottom: -60px;
+}
+/*  --------------------- Header CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- About CSS Start ------------------------ */
+.About{
+	margin-top: 85px;
+	margin-bottom: 100px;
+}
+.About_text {
+	
+	text-align: center;
+}
+
+.About_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+}
+
+.About_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.About_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+}
+
+.About_text p {
+	margin: 45px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+}
+
+.About_box {
+	margin-top: 45px;
+	background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+	transition: .5s ease;
+	height: 250px;
+}
+
+.About_box a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.About_box_image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	height: 250px;
+}
+
+.About_box .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.About_box:hover .About_box_image {
+	opacity: .1;
+}
+
+.About_box:hover .middle {
+	opacity: 1;
+}
+
+.About_box:hover {
+	border-bottom: 10px solid #95e1d3;
+	border-right: 10px solid #95e1d3;
+}
+
+
+/*  --------------------- About CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Client CSS Start ------------------------ */
+
+.client {
+	background: #95e1d3;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.events_box {
+	padding: 73px 0px;
+	text-align: center;
+	float: left;
+	width: 20%;
+	border-left: 1px solid #b5eae0;
+	border-right: 1px solid #b5eae0;
+	color: #fff;
+}
+
+.shiva {
+	margin: 5px 0px;
+	font-size: 42px;
+}
+
+.events_box p {
+	font-size: 18px;
+}
+
+
+/*  --------------------- Client CSS Start ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Service CSS Start ------------------------ */
+
+.service {
+	padding: 115px 0px;
+}
+
+.service_text {
+	text-align: center;
+}
+
+.service_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+.service_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.service_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.service_box {
+	margin: 30px 0px;
+}
+
+
+.service_box .icon {
+	
+	font-size: 40px;
+	color: #95e1d3;
+}
+
+.service_box_txt{
+	
+}
+.service_box_txt h4 {
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.service_box_txt p {
+	color: #999;
+}
+/*  --------------------- Service CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Design CSS Start ------------------------ */
+
+.design {
+	background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url(../img/picture.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	opacity: 1;
+}
+
+.design_text {
+	color: #000;
+	margin-top: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.mobile1 {
+	width: 480px;
+}
+
+.design_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+.design_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.design_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+	margin-top: 38px;
+	margin-bottom: 45px;
+}
+
+.mobile2 {
+	position: absolute;
+	bottom: 0;
+	top: 40%;
+	left: 50%;
+	width: 200px;
+	transform: translate(50%, 50%);
+}
+
+
+/*  --------------------- Design CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- WeDo_service CSS Start ------------------------ */
+
+.weDo_service {
+	margin-top: 85px;
+	margin-bottom: 120px;
+}
+
+.weDo_service_text {
+	text-align: center;
+}
+
+.weDo_service_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+}
+
+.weDo_service_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.weDo_service_text p {
+	margin: 45px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+}
+
+.weDo_service_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+}
+
+.weDo_service img {
+	width: 100%;
+	height: 380px;
+}
+
+.panel-body {
+	height: 177px;
+	overflow-y: scroll;
+}
+
+.weDo_service .panel-default>.panel-heading {
+	background-color: #fff;
+}
+
+.weDo_service .panel-body {
+	color: #999;
+}
+
+.weDo_service .icon {
+	font-size: 20px;
+	margin-right: 10px;
+	color: #95e1d3;
+	padding: 10px 0px;
+}
+
+.weDo_service_box {
+	margin-top: 85px;
+}
+
+.weDo_service_box .panel-collapse.in {
+	overflow-y: auto;
+}
+
+.weDo_service_box .collapsing {
+	position: relative;
+	width: 100%;
+}
+
+/*  --------------------- WeDo_service CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Msg CSS Start ------------------------ */
+
+.msg {
+	background: #f8f8f8;
+}
+
+.msg_pert1 {
+	margin: 70px 0px;
+	text-align: center;
+}
+
+.msg .item {}
+
+.msg_pert1 .icon {
+	color: #95e1d3;
+	display: inline-block;
+	font-size: 30px;
+	padding: 42px;
+	margin: 30px 60px;
+	border: 3px solid #95e1d3;
+}
+
+.msg_pert2 {
+	font-style: italic;
+	padding: 70px 0px;
+}
+
+.msg_pert2 p {
+	font-size: 24px;
+	color: #999;
+}
+
+.msg_pert2 h6 {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.msg_pert2 hr {
+	width: 100px;
+	float: left;
+	border: 2px solid #f38181;
+	margin-bottom: 0;
+	margin-top: 16px;
+	margin-right: 10px;
+}
+
+.msg .carousel-control.left {
+	background: transparent;
+}
+
+.msg .carousel-control.right {
+	background: transparent;
+}
+
+.msg .carousel-control {
+	width: 0;
+	 color: #999;
+}
+
+
+/*  --------------------- Msg CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Team CSS Start ------------------------ */
+.Team{
+	margin-top: 85px;
+	margin-bottom: 100px;
+}
+.Team_text {
+	
+	text-align: center;
+}
+
+.Team_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+}
+
+.Team_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.Team_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+}
+
+.Team_text p {
+	margin: 45px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+}
+
+.Team_box {
+	margin-top: 45px;
+	margin-bottom: 31px;
+	background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+	transition: .5s ease;
+	height: 370px;
+}
+
+.Team_box a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.Team_box_image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	height: 370px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.Team_box .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	transform: translate(-40%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.Team_box .middle .icon {
+	background: #fce38a;
+	padding: 16px 14px;
+	color: #f38181;
+	border-radius: 5px;
+}
+
+.Team_box .middle .icon:hover {
+	background: #f38181;
+	color: #fff;
+}
+
+.Team_box:hover .Team_box_image {
+	opacity: .1;
+}
+
+.Team_box:hover .middle {
+	opacity: 1;
+}
+
+.Team_box:hover {
+	border-bottom: 10px solid #95e1d3;
+	border-right: 10px solid #95e1d3;
+}
+
+.Team_box_text {
+	text-align: center;
+	font-weight: 500;
+}
+
+.Team_box_text span {
+	color: #999;
+}
+
+
+/*  --------------------- Team CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- product CSS Start ------------------------ */
+
+.product {
+	background: #f8f8f8;
+}
+
+.product img {
+	padding: 50px 0px;
+}
+
+
+/*  --------------------- product CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- gallary_box CSS Start ------------------------ */
+
+.gallary_box {
+	background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+	transition: .5s ease;
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.gallary_box_middle {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	background-position: center center;
+	background-size: cover;
+}
+
+.gallary_box .gallary_box_middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+}
+
+.gallary_box .gallary_box_middle .icon {
+	font-size: 30px;
+}
+
+.gallary_box:hover .gallary_box_image {
+	opacity: .1;
+}
+
+.gallary_box:hover .gallary_box_img_big {
+	opacity: .1;
+}
+
+.gallary_box:hover .gallary_box_middle {
+	opacity: 1;
+}
+
+.gallary_box_image {
+	width: 100%;
+	height: 391px;
+}
+
+.gallary_box_img_big {
+	height: 782px;
+	width: 100%;
+}
+
+.gallary .col-md-6,
+.col-md-3 {
+	padding: 0;
+}
+
+.gallary_box_middle p {
+	font-weight: 500;
+	margin: 10px 0px;
+	font-size: 16px;
+}
+
+
+/*  --------------------- gallary_box CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Msg_slide CSS Start ------------------------ */
+
+.Msg_slide {}
+
+.Msg_slide1 {
+	margin: 70px 0px;
+}
+
+.Msg_slide1 img {
+	width: 210px;
+	height: 210px;
+	margin-left: 20px;
+}
+
+.Msg_slide .item {}
+
+.Msg_slide2 {
+	font-style: italic;
+	margin: 70px 0px;
+}
+
+.Msg_slide2 p {
+	font-size: 24px;
+	color: #999;
+}
+
+.Msg_slide2 h6 {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.Msg_slide2 hr {
+	width: 100px;
+	float: left;
+	border: 2px solid #f38181;
+	margin-bottom: 0;
+	margin-top: 16px;
+	margin-right: 10px;
+}
+
+.Msg_slide .carousel-control.left {
+	background: transparent;
+}
+
+.Msg_slide .carousel-control.right {
+	background: transparent;
+}
+
+.Msg_slide .carousel-control {
+	width: 0;
+	 color: #999;
+}
+
+
+/*  --------------------- Msg_slide CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Happy_client CSS Start ------------------------ */
+
+.Happy_client {
+	background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0.45), rgba(245, 245, 245, 1.45)), url(../img/picture.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	opacity: 1;
+	padding: 85px 0px;
+	background-attachment: fixed;
+}
+
+.Happy_client_text {
+	text-align: center;
+}
+
+.Happy_client_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+}
+
+.Happy_client_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.Happy_client_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+}
+
+.Happy_client_box {
+	margin: 30px 0px;
+}
+
+.Happy_client_box_img img {
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.Happy_client_box .icon {
+	float: left;
+	display: inline-block;
+	font-size: 40px;
+	margin-right: 25px;
+	height: 80px;
+	color: #95e1d3;
+}
+
+.Happy_client_box hr {
+	width: 30px;
+	border: 2px solid #f38181;
+	text-align: left;
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+.Happy_client_box_txt {}
+
+.Happy_client_box_txt h4 {
+	margin-bottom: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.Happy_client_box_txt h5 {
+	font-style: italic;
+}
+
+.Happy_client_box_txt p {}
+
+
+/*  --------------------- Happy_client CSS End ------------------------ */
+
+
+/*  ------------------------------------------------------------- */
+
+
+/*  --------------------- Latest_blog CSS Start ------------------------ */
+
+.Latest_blog {
+	padding: 100px 0px;
+}
+
+.Latest_blog_text {
+	text-align: center;
+}
+
+.Latest_blog_text h3 {
+	font-size: 24px;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: italic;
+}
+
+.Latest_blog_text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.Latest_blog_text hr {
+	width: 62px;
+	border: 2px solid #f38181;
+}
+
+.Latest_blog_box_txt {
+	margin-bottom: 10px;
+}
+
+.Latest_blog_box img {
+	width: 100%;
+	height: 240px;
+}
+
+.Latest_blog_box_txt h4 {
+	margin: 20px 0px;
+	text-transform: uppercase;
+}
+
+.Latest_blog_date {
+	position: absolute;
+	top: 30%;
+	left: -4%;
+	transform: translate(50%, 0%);
+	color: #fff;
+	background: #95e1d3;
+	padding: 11px 15px;
+}
+
+.Latest_blog_date p {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.Latest_blog_date span {
+	font-size: 15px;
+	font-style: italic;
+}
+
+.Latest_blog_box_txt .icon {
+	color: #95e1d3;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.Latest_blog_box_txt span {
+	margin-right: 15px;
+	color: #9999;
+	font-style: italic;
+}
+
+
+/*  --------------------- Latest_blog CSS End ------------------------ */
+/*  ------------------------------------------------------------- */
+/*  --------------------- Map CSS Start ------------------------ */
+.Map iframe{
+	width:100%;
+	height:200px;
+	border: 0;
+}
+/*  --------------------- Map CSS End ------------------------ */
+/*  --------------------- Footer CSS Start ------------------------ */
+
+.footer {
+	background: #f8f8f8;
+}
+
+.footer_main {
+	padding: 70px 0px;
+}
+
+.footer_col_1 {}
+
+.f_logo {
+	color: #999;
+}
+
+.f_logo h2 {
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+
+.f_logo p {
+	font-size: 15px;
+	margin-bottom: 47px;
+}
+
+.footer_col_1 .icon {
+	color: #95e1d3;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.f_Blog {}
+
+.f_Blog h2 {
+	margin-bottom: 40px;
+	color: #999;
+}
+
+.f_Blog_img {
+	overflow: auto;
+	margin-bottom: 30px;
+}
+
+.f_Blog_img img {
+	float: left;
+	margin-right: 20px;
+	height: 80px;
+	width: 120px;
+}
+
+.f_Blog_img p {
+	font-weight: 500;
+}
+
+.f_Blog_img span {
+	color: #999;
+}
+
+.f_insta {
+	text-align: center;
+}
+
+.f_insta h2 {
+	color: #999;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.footer_img {
+	width: 89px;
+	height: 89px;
+	margin-bottom: 5px;
+}
+
+.Suscribe {
+	margin-top: 40px;
+}
+
+.Suscribe_btn {
+	background-color: #95e1d3;
+	color: #fff;
+}
+
+.footer_bottom {
+	border-top: 1px solid #999;
+}
+
+.footer_bottom p {
+	text-align: center;
+	padding: 24px 0px;
+	font-weight: 500;
+}
+
+.footer_bottom a {
+	color: #f38181;
+}
+
+
+/*  --------------------- Footer CSS End ------------------------ */
+
+/*  ------------------------------------------------------------- */
+
+/*  --------------------- media Min 576px CSS Start ------------------------ */
+
+@media(max-width:576px) {
+	/*  --------------------- Header CSS Start ------------------------ */
+	.header_top{
+		padding: 10px 0;
+	}
+	.header_main {
+		min-height: 500px
+	}
+	.header_main_text h2 {
+		font-size: 60px;
+		margin-top: 30px;
+	}
+	.header_main_text h3 {
+		font-size: 40px;
+	}
+	.header_main_text hr {
+		margin-top: 50px;
+	}
+	.header_btn {
+		margin-top: 35px;
+	}
+	.navbar-right {
+		background: rgba(243, 129, 129, 1);
+		margin-top: 0px;
+		position: relative;
+		z-index: 1000;
+	}
+	.nav>li:not(:last-child) {
+		border-bottom: 1px solid #fff;
+	}
+	.navbar-nav>li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar-nav>li a {
+		color: #fff;
+		text-align: center;
+	}
+	.header_top .navbar-nav>li>a {
+		border-bottom: 0;
+		padding: 0px;
+	}
+	.header_top .navbar-nav>li>a:hover {
+		border-bottom: 0;
+	}
+	/*  --------------------- Header CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- About CSS Start ------------------------ */
+	.About{
+		margin: 0;
+	}
+	.About_box {
+		height: auto;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.About_text {
+		margin-top: 50px;
+	}
+	.About_text p {
+		margin: 35px 10px;
+	}
+	.About_box_image {
+		height: 265px;
+	}
+	/*  --------------------- About CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Client CSS Start ------------------------ */
+	.events_box {
+	
+		padding: 30px 0px;
+		width: 50%;
+		border-bottom: 1px solid #b5eae0;
+    	border-right: 1px solid #b5eae0;
+	}
+	/*  --------------------- Client CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- gallary_box CSS Start ------------------------ */
+	.gallary_box_image {
+		height: 225px;
+	}
+	.Happy_client_box{
+		text-align: center;
+	}
+	/*  --------------------- gallary_box CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Service CSS Start ------------------------ */
+	.service {
+		padding: 70px 0px;
+	}
+	/*  --------------------- Service CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Design CSS Start ------------------------ */
+	.mobile1 {
+		width: 250px;
+	}
+	.mobile2 {
+		left: 30%;
+		top: 33%;
+		width: 150px;
+	}
+	/*  --------------------- Design CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- gallary_box CSS Start ------------------------ */
+	.gallary_box_img_big {
+		height: auto;
+	}
+	/*  --------------------- gallary_box CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- WeDo_service CSS Start ------------------------ */
+	.weDo_service_box .panel-group {
+		margin-top: 20px;
+	}
+	.weDo_service_text {
+		margin-top: 70px;
+	}
+	.weDo_service_box {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	/*  --------------------- WeDo_service CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Msg CSS Start ------------------------ */
+	.msg_pert1 {
+		margin: 10px 0px;
+	}
+	.msg_pert1 .icon {
+		padding: 10px;
+		margin: 0px;
+	}
+	.msg_pert2 {
+		padding: 10px 10px;
+	}
+	.msg_pert2 p {
+		font-size: 12px;
+
+	}
+	.msg_pert2 h6 {
+		font-size: 12px;
+	}
+	.msg_pert2 hr {
+		margin-top: 6px;
+		width: 32px;
+	}
+	/*  --------------------- Msg CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Team CSS Start ------------------------ */
+	.Team{
+		margin-top: 40px;
+    	margin-bottom: 50px;
+	}
+	.Team_box_text {
+		margin-bottom: 50px;
+	}
+	.Team_text p {
+		margin: 25px 0px;
+	}
+	/*  --------------------- Team CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Msg_slide CSS Start ------------------------ */
+	.Msg_slide {
+    padding: 20px 0px;
+	}
+	.Msg_slide1{
+		text-align: center;
+		margin: 10px 0px;
+	}
+	.Msg_slide1 img {
+		width: 100px;
+		height: 100px;
+	}
+	.Msg_slide2{
+		margin: 10px 0px;
+	}
+	.Msg_slide2 p {
+		font-size: 15px;
+	}
+	.Msg_slide2 h6 {
+		font-size: 18px;
+	}
+	.Msg_slide2 hr {
+		width: 50px;
+		margin-top: 11px;
+	}
+	/*  --------------------- Msg_slide CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Latest_blog CSS Start ------------------------ */
+	.Latest_blog {
+		padding: 50px 0px;
+	}
+	.Latest_blog_date {
+		left: -3%;
+	}
+	/*  --------------------- Latest_blog CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Footer CSS Start ------------------------ */
+	.footer_col_1 {
+		margin-bottom: 30px;
+	}
+	.f_logo h2 {
+		margin-bottom: 30px;
+	}
+	.f_Blog h2 {
+		margin-bottom: 30px;
+	}
+	.f_insta h2 {
+		margin-bottom: 30px;
+	}
+	.footer_img {
+		width: 100%;
+		height: auto;
+	}
+	.footer_main {
+		padding: 50px 0px;
+		text-align: center;
+	}
+	/*  --------------------- Footer CSS End ------------------------ */
+}
+
+@media(min-width:576px) and (max-width:767px) {
+	/*  --------------------- Header CSS Start ------------------------ */
+	.header_main_text h2 {
+		font-size: 90px;
+		margin-top: 30px;
+	}
+	.header_main_text h3 {
+		font-size: 50px;
+		font-weight: 400;
+		font-family: 'Maven Pro', sans-serif;
+		font-style: italic;
+	}
+	.header_main_text hr {
+		margin-top: 50px;
+	}
+	.header_main{
+		min-height: 700px;
+	}
+	.navbar-right {
+		background: rgba(243, 129, 129, 1);
+		margin-top: 48px;
+		position: relative;
+		z-index: 1000;
+	}
+	.nav>li:not(:last-child) {
+		border-bottom: 1px solid #fff;
+	}
+	.navbar-nav>li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar-nav>li a {
+		color: #fff;
+		text-align: center;
+	}
+	.header_top .navbar-nav>li>a:hover{
+		border-bottom: 4px solid transparent;
+    	padding-bottom: 0px;
+	}
+	/*  --------------------- Header CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- About CSS Start ------------------------ */
+	.About{
+		margin: 0;
+	}
+	.About_box_image {
+		height: 300px;
+	}
+	.About_text {
+		margin-top: 50px;
+	}
+	.About_text p {
+		margin: 35px 10px;
+		;
+	}
+	.About_box {
+		height: auto;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	/*  --------------------- About CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Client CSS Start ------------------------ */
+	.events_box {
+	
+		padding: 30px 0px;
+		width: 50%;
+		border-bottom: 1px solid #b5eae0;
+    	border-right: 1px solid #b5eae0;
+	}
+	/*  --------------------- Client CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Service CSS Start ------------------------ */
+	.service {
+		padding: 70px 0px;
+	}
+	/*  --------------------- Service CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Design CSS Start ------------------------ */
+	.mobile1 {
+		width: 270px;
+	}
+	.mobile2 {
+		left: 42%;
+		top: 33%;
+		width: 150px;
+	}
+	/*  --------------------- Design CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- gallary_box CSS Start ------------------------ */
+	.gallary_box_image {
+		height: 400px;
+	}
+	.Happy_client_box{
+		text-align: center;
+	}
+	/*  --------------------- gallary_box CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- WeDo_service CSS Start ------------------------ */
+	.weDo_service_box .panel-group {
+		margin-top: 20px;
+	}
+	.weDo_service_text {
+		margin-top: 70px;
+	}
+	.weDo_service_box {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	/*  --------------------- WeDo_service CSS End ------------------------ */
+	/*  --------------------- Msg CSS Start ------------------------ */
+	.msg_pert1 {
+		margin: 10px 0px;
+	}
+	.msg_pert1 .icon {
+		padding: 20px;
+		margin: 0px;
+	}
+	.msg_pert2 {
+		padding: 10px 10px;
+	}
+	.msg_pert2 h6 {
+		font-size: 18px;
+	}
+	.msg_pert2 hr {
+		margin-top: 11px;
+		width: 50px;
+	}
+	.msg_pert2 p {
+		font-size: 16px;
+	}
+	/*  --------------------- Msg CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Team CSS Start ------------------------ */
+	.Team{
+		margin-top: 40px;
+    	margin-bottom: 50px;
+	}
+	/*  --------------------- Team CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Msg_slide CSS Start ------------------------ */
+	.Msg_slide {
+    padding: 30px 0px;
+	}
+	.Msg_slide1{
+		text-align: center;
+		margin: 10px 0px;
+	}
+	.Msg_slide1 img {
+		width: 100px;
+		height: 100px;
+	}
+	.Msg_slide2{
+		margin: 10px 0px;
+	}
+	.Msg_slide2 p {
+		font-size: 16px;
+	}
+	.Msg_slide2 h6 {
+		font-size: 18px;
+	}
+	.Msg_slide2 hr {
+		width: 50px;
+		margin-top: 11px;
+	}
+	/*  --------------------- Msg_slide CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Latest_blog CSS Start ------------------------ */
+	.Latest_blog {
+		padding: 50px 0px;
+	}
+	.Latest_blog_date {
+		left: -3%;
+	}
+	/*  --------------------- Latest_blog CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Footer CSS Start ------------------------ */
+	.footer_img {
+		width: 100%;
+		height: auto;
+	}
+	.f_logo h2 {
+		margin-bottom: 30px;
+	}
+	.f_Blog h2 {
+		margin-bottom: 30px;
+	}
+	.f_insta h2 {
+		margin-bottom: 30px;
+	}
+	.footer_col_1 {
+		margin-bottom: 30px;
+	}
+	.footer_main {
+		padding: 50px 0px;
+		text-align: center;
+	}
+	/*  --------------------- Footer CSS End ------------------------ */
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	/*  --------------------- Header CSS Start ------------------------ */
+	.header_main_text h2 {
+		font-size: 100px;
+	}
+	.header_main_text h3 {
+		font-size: 60px;
+	}
+	/*  --------------------- Header CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Client CSS Start ------------------------ */
+	.events_box {
+		width: 20%;
+	}
+	/*  --------------------- Client CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- gallary_box CSS Start ------------------------ */
+	.gallary_box_image {
+		height: 225px;
+	}
+	.gallary_box_img_big {
+		height: 450px;
+	}
+	/*  --------------------- gallary_box CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Msg CSS Start ------------------------ */
+	.msg_pert1 .icon {
+		margin: 30px 60px 30px 30px;
+	}
+	.msg_pert2 p {
+		font-size: 20px;
+	}
+	.msg_pert2 h6 {
+		font-size: 20px;
+	}
+	/*  --------------------- Msg CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Msg_slide CSS Start ------------------------ */
+	.Msg_slide1 img {
+		width: 150px;
+		height: 150px;
+	}
+	.Msg_slide2 p {
+		font-size: 20px;
+	}
+	/*  --------------------- Msg_slide CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Latest_blog CSS Start ------------------------ */
+	.Latest_blog_date {
+		left: -2%;
+		top: 50%;
+	}
+	.Latest_blog_box img {
+		height: auto;
+	}
+	.footer_img {
+		width: 30%;
+		height: auto;
+	}
+	.footer_col_1 {
+		margin-bottom: 30px;
+	}
+	/*  --------------------- Latest_blog CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Team CSS Start ------------------------ */
+	.Team_box_image {
+		height: 275px;
+	}
+	.Team_box {
+		height: auto;
+	}
+	.Team_box .middle {
+		left: 43%;
+	}
+	.Team_box .middle .icon {
+		background: #fce38a;
+		padding: 8px 9px;
+		color: #f38181;
+		border-radius: 5px;
+		font-size: 15px;
+	}
+	/*  --------------------- Team CSS End ------------------------ */
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+	/*  --------------------- About CSS Start ------------------------ */
+	.About_box .middle {
+		top: 43%;
+	}
+	/*  --------------------- About CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- gallary_box CSS Start ------------------------ */
+	.gallary_box_image {
+		height: 267px;
+	}
+	.gallary_box_img_big {
+		height: 535px;
+		width: 100%;
+	}
+	/*  --------------------- gallary_box CSS End ------------------------ */
+	/*  ------------------------------------------------------------- */
+	/*  --------------------- Team CSS Start ------------------------ */
+	.Team_box .middle {
+		left: 43%;
+	}
+	.Team_box .middle .icon {
+		background: #fce38a;
+		padding: 8px 9px;
+		color: #f38181;
+		border-radius: 5px;
+		font-size: 18px;
+	}
+	/*  --------------------- Team CSS Start ------------------------ */
+}
